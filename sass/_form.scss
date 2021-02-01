@@ -1,0 +1,45 @@
+.form-section {
+  grid-column: col-start 2/col-end 7;
+  display: grid;
+  grid-template-rows: repeat(2, min-content);
+  padding: 5rem;
+  grid-row-gap: 3rem;
+  margin-bottom: 2rem;
+  background-color: rgb(246 ,248 ,252);
+  border-radius: 1%;
+
+  &__intro {
+    grid-row: 1/2;
+    text-align: center;
+  }
+
+  &__main {
+    display: flex;
+    justify-content: center;
+  }
+}
+
+.email {
+    width: 55%;
+    margin-right: 1rem;
+    border: 1px solid $gray-300;
+    border-radius: 0.5rem;
+    outline: none;
+    transition: all 0.1s ease-in-out 0.2s;
+    background-color: #ffffff;
+    overflow: visible;
+    padding: 1.1rem 1.3rem;
+    color: #69849b;
+    font-size: 1.6rem;
+    
+}
+
+.email::placeholder {
+    color: #69849b;
+    opacity: 0.5;
+}
+
+.email:focus {
+    border: 1px solid $theme-color-primary;
+    box-shadow: 3px 3px 3px 1px rgba(0, 0, 0, 0.2);
+}

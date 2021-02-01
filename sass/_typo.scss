@@ -1,0 +1,150 @@
+%heading {
+    font-family: 'Quicksand', sans-serif;
+    color: rgb(28 , 30, 46);
+}
+
+.heading-1 {
+    @extend %heading;
+    font-size: 4.2rem;
+    line-height: 5rem;
+}
+
+.heading-4 {
+    @extend %heading;
+    font-size: 1.74rem;
+}
+
+.heading-2 {
+  @extend %heading;
+  font-size: 4rem;
+
+    @media only screen and (max-width: $bp-med) {
+        font-size: 3.7rem;
+    }
+
+    @media only screen and (max-width: $bp-small) {
+        font-size: 3.5rem;
+    }
+
+    @media only screen and (max-width: $bp-smallest) {
+        font-size: 2.8rem;
+    }
+}
+
+.heading-2-w {
+  @extend %heading;
+  font-size: 4rem;
+  color: $theme-bg-light;
+  text-align: center;
+  grid-column: 1/7;
+
+    @media only screen and (max-width: $bp-smallest) {
+        font-size: 3.25rem;
+    }
+}
+
+.heading-3 {
+  @extend %heading;
+  font-size: 3rem;
+}
+
+%para {
+    font-weight: 300;
+    color: rgb(76, 82, 125);
+}
+
+.p1 {
+  font-size: 2rem;
+  @extend %para;
+  line-height: 2.9rem;
+}
+
+.p2 {
+    @extend %para;
+    font-size: 1.55rem;
+}
+
+.p3 {
+    font-size: 1.7rem;
+    @extend %para;
+    word-spacing: 0.2rem;
+}
+
+.p4 {
+    font-size: 1.6rem;
+    @extend %para;
+    word-spacing: 0.2rem;
+}
+
+%bttn {
+    text-transform: uppercase;
+    text-decoration: none;
+    display: inline-block;
+    outline: none;
+    border: none;
+    background-color: $theme-color-primary;
+    color: $theme-bg-light;
+    transition: all 0.4s;
+    cursor: pointer;
+    font-size: 1.4rem;
+}
+
+.btn {
+    @extend %bttn;
+    padding: 1.8rem 3.8rem;
+    border-radius: 10rem;
+    
+}
+
+.btn-w {
+    @extend %bttn;
+    padding: 1.6rem 3.8rem;
+    border: 2px solid $theme-color-primary;
+    background-color: $theme-bg-light;
+    color: $theme-color-primary;
+    border-radius: 10rem;
+}
+
+.btn-square {
+    @extend %bttn;
+    border-radius: 0.5rem;
+    padding: 1.8rem 2.4rem;
+}
+
+.btn-w:hover {
+    background-color: $theme-color-primary;
+    color: $theme-bg-light;
+}
+
+.btn:hover,
+.btn-square:hover {
+    background-color: darken($theme-color-primary, 6);
+}
+
+.mb-1 {
+    margin-bottom: 1.5rem;
+}
+
+.mb-2 {
+    margin-bottom: 2.5rem;
+}
+
+.mb-3 {
+    margin-bottom: 3rem;
+}
+
+.mb-5 {
+    margin-bottom: 5rem;
+}
+
+.m-lr {
+    margin: auto 20rem;
+
+    @media only screen and (max-width: $bp-medium) {
+        margin: 0 10rem;
+    }
+
+    @media only screen and (max-width: $bp-smallest) {
+        margin: 0 5rem;
+    }
+}

@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://fonts.googleapis.com/css?family=Quicksand:700|Roboto:400,400i,700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;1,100;1,300&display=swap" rel="stylesheet">
+    <script defer src="fontawesome/js/all.min.js"></script>
+    <link rel="stylesheet" href="css/index.css">
+    
+</head>
+<body class="container">
+    <div class="header">
+        <a class="head" href="./index.html">
+            <div class="branding">
+                <img class="logo" src="./images/site-logo.svg" alt="logo">
+            </div>
+            <p class="brand-text">DevBook</p>
+        </a>
+    </div>
+    <div class="hero-section">
+        <div class="hero-section__all">
+            <h1 class="heading-1">Free Book & eBook<br>Landing Page Template</h1>
+            <p class="p1">A free Bootstrap 4 template for developers and programmers who want to self-publish books. Download now
+                and start
+                selling your book right away!</p>
+            <div class="buttons">
+                <button class="btn" style="margin-right: 1.2rem;">Buy for $20</button>
+                <button class="btn-w">Learn More</button>
+            </div>
+            <div class="slide-section">
+                <div class="slide-section__content">
+                    <div class="slide-section__review">
+                        "Excellent Book! Add your book reviews here consectetur adipiscing elit. Aliquam euismod nunc porta urna
+                        facilisis
+                        tempor. Praesent mauris neque, viverra quis erat vitae, auctor imperdiet nisi."
+                    </div>
+                    <div class="slide-section__pic">
+                        <img class="slide-section__pic--1" src="./images/profiles/profile-1.png" alt="profile-1">
+                    </div>
+                    <div class="slide-section__details">
+                        <p id="p1" class="quote__text">James Doe</p>
+                        <p class="quote__text">Co-Founder, Startup Week</p>
+                    </div>
+                </div>
+                <div class="slide-section__content">
+                    <div class="slide-section__review">
+                        "Great Book! Add your book review here consectetur adipiscing elit. Aliquam euismod nunc porta urna
+                        facilisis tempor.
+                        Praesent mauris neque."
+                    </div>
+                    <div class="slide-section__pic">
+                        <img class="slide-section__pic--2" src="./images/profiles/profile-2.png" alt="profile-2">
+                    </div>
+                    <div class="slide-section__details">
+                        <p class="quote__text">Jean Doe</p>
+                        <p class="quote__text">Co-Founder, Company Tristique</p>
+                    </div>
+                </div>
+                <div class="slide-section__content">
+                    <div class="slide-section__review">
+                        "Excellent Book! Add your book review here consectetur adipiscing elit. Pellentesque ac leo turpis.
+                        Phasellus imperdiet
+                        id ligula tempor imperdiet."
+                    </div>
+                    <div class="slide-section__pic">
+                        <img class="slide-section__pic--3" src="./images/profiles/profile-3.png" alt="profile-3">
+                    </div>
+                    <div class="slide-section__details">
+                        <p class="quote__text">Tom Doe</p>
+                        <p class="quote__text">Product Designer, Company Lorem</p>
+                    </div>
+                </div>
+            </div>
+            <div class="dots">
+                <span class="dot" onclick="currentSlide(1)"></span>
+                <span class="dot" onclick="currentSlide(2)"></span>
+                <span class="dot" onclick="currentSlide(3)"></span>
+            </div>
+        </div>
+    </div>
+    <div class="book-page">
+        <div class="book-page__pic">
+            <div class="book-page__logo">New Release</div>
+            <img src="./images/devbook-cover.png" alt="book" class="book-page__pic--1">
+        </div>
+        <div class="book-page__link">
+            <a class="p4" href="#review-section">See all book reviews</a>
+        </div>
+    </div>
+    <div class="benifits-section">
+        <div class="benifits-section__intro mb-3d">
+            <h2 class="heading-2 mb-2">What Will You Get From This Book?</h2>
+            <p class="p1 m-lr">Section intro goes here. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer blandit consequat consequat.
+            Orci varius natoque penatibus et magnis.</p>
+        </div>
+        <div class="benifits-section__main">
+            <div class="benifit">
+                <div class="benifit__icon">
+                    <i class="fas fa-laptop-code"></i>
+                </div>
+                <h4 class="heading-4">Build Lorem Ipsum lobortis nec mauris habitant morbi</h4>
+                <p class="p2">List one of your book's benefits here. Orci varius natoque penatibus et magnis dis parturient montes.</p>
+            </div>
+            <div class="benifit">
+                <div class="benifit__icon">
+                    <i class="fab fa-js-square"></i>
+                </div>
+                <h4 class="heading-4">Master aliquet augue ac ipsum lobortis interdum</h4>
+                <p class="p2">List one of your book's benefits here. Orci varius natoque penatibus et magnis dis parturient montes.</p>
+            </div>
+            <div class="benifit">
+                <div class="benifit__icon">
+                    <i class="fab fa-rocketchat"></i>
+                </div>
+                <h4 class="heading-4">Learn from lorem ipsum dolor sit amet consectetur</h4>
+                <p class="p2">List one of your book's benefits here. Orci varius natoque penatibus et magnis dis parturient montes.</p>
+            </div>
+            <div class="benifit">
+                <div class="benifit__icon">
+                    <i class="fab fa-angular"></i>
+                </div>
+                <h4 class="heading-4">Discover phasellus id egestas tellus maximus</h4>
+                <p class="p2">List one of your book's benefits here. Orci varius natoque penatibus et magnis dis parturient montes.</p>
+            </div>
+            <div class="benifit">
+                <div class="benifit__icon">
+                    <i class="fas fa-code-branch"></i>
+                </div>
+                <h4 class="heading-4">Deploy elementum mauris tincidunt tempus sagittis</h4>
+                <p class="p2">List one of your book's benefits here. Orci varius natoque penatibus et magnis dis parturient montes.</p>
+            </div>
+            <div class="benifit">
+                <div class="benifit__icon">
+                    <i class="fas fa-hand-holding-usd"></i>
+                </div>
+                <h4 class="heading-4">Become mattis est et mauris tempus non imperdiet</h4>
+                <p class="p2">List one of your book's benefits here. Orci varius natoque penatibus et magnis dis parturient montes.</p>
+            </div>
+        </div>   
+    </div>
+    <div class="include">
+        <div class="include__intro">
+            <h2 class="heading-2 mb-3">What's Included</h2>
+        </div>
+        <div class="include__img">
+            <img class="include__img--1" src="./images/devbook-devices.png" alt="devices">
+        </div>
+        <div class="include__content">
+            <ul class="include__lists mb-2">
+                <li class="include__list">
+                    <div class="check__icon"><i class="fas fa-check-circle"></i></div>
+                    <p class="p3">List your book's content here.</p>
+                </li>
+                <li class="include__list">
+                    <div class="check__icon"><i class="fas fa-check-circle"></i></div>
+                    <p class="p3">PDF fermentum tincidunt erat.</p>
+                </li>
+                <li class="include__list">
+                    <div class="check__icon"><i class="fas fa-check-circle"></i></div>
+                    <p class="p3">EPUB curabitur fermentum.</p>
+                </li>
+                <li class="include__list">
+                    <div class="check__icon"><i class="fas fa-check-circle"></i></div>
+                    <p class="p3">Lorem ipsum dolor sit amet.</p>
+                </li>
+                <li class="include__list">
+                    <div class="check__icon"><i class="fas fa-check-circle"></i></div>
+                    <p class="p3">Praesent molestie odio risus.</p>
+                </li>
+                <li class="include__list">
+                    <div class="check__icon"><i class="fas fa-check-circle"></i></div>
+                    <p class="p3">Kindle curabitur fermentum.</p>
+                </li>
+                <li class="include__list">
+                    <div class="check__icon"><i class="fas fa-check-circle"></i></div>
+                    <p class="p3">PDF fermentum tincidunt erat.</p>
+                </li>
+                <li class="include__list">
+                    <div class="check__icon"><i class="fas fa-check-circle"></i></div>
+                    <p class="p3">Lorem ipsum dolor sit amet.</p>
+                </li>
+            </ul>
+            <button class="btn">I want this Book</button>
+        </div>
+    </div>
+    <div class="audience-section">
+        <div class="audience-section__intro mb-3d">
+            <h2 class="heading-2 mb-2">Who This Book Is For</h2>
+            <p class="p1 m-lr">List your target readers in this section and back up with reviews. Lorem ipsum dolor sit amet, consectetur adipiscing
+            elit. Proin sodales sit amet neque sit amet molestie. Vivamus hendrerit nisi condimentum erat tempus, vitae accumsan
+            odio euismod.</p>
+        </div>
+        <div class="audience-section__main">
+            <div class="audience">
+                <div class="audience__icon">
+                    <i class="fas fa-user-check"></i>
+                </div>
+                <h4 class="heading-4">Software Developers</h4>
+                <p class="p2">Learn lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin sodales sit amet neque sit amet molestie</p>
+            </div>
+            <div class="audience">
+                <div class="audience__icon">
+                    <i class="fas fa-user-check"></i>
+                </div>
+                <h4 class="heading-4">App Developers</h4>
+                <p class="p2">Learn lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin sodales sit amet neque sit amet
+                    molestie</p>
+            </div>
+            <div class="audience">
+                <div class="audience__icon">
+                    <i class="fas fa-user-check"></i>
+                </div>
+                <h4 class="heading-4">Web Developers</h4>
+                <p class="p2">Learn lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin sodales sit amet neque sit amet
+                    molestie</p>
+            </div>
+            <div class="audience">
+                <div class="audience__icon">
+                    <i class="fas fa-user-check"></i>
+                </div>
+                <h4 class="heading-4">Product Designers</h4>
+                <p class="p2">Learn lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin sodales sit amet neque sit amet
+                    molestie</p>
+            </div>
+        </div>
+    </div>
+    <div class="form-section">
+        <div class="form-section__intro">
+            <h2 class="heading-3 mb-1">
+                Get A Free Preview
+            </h2>
+            <p class="p4">Sign up to get a free preview of the book.</p>
+            <p class="p4">You can offer visitors free book previews to generate leads.</p>
+        </div>
+        <form action="POST" class="form-section__main">
+            <input class="email" type="email" placeholder="Your Email">
+            <button type="submit" class="btn-square">Send</button>
+        </form>
+    </div>
+    <div class="review-section" id="review-section">
+        <div class="review-section__intro mb-3d">
+            <h2 class="heading-2 mb-2">Book Reviews</h2>
+            <p class="p1">See what our readers are saying.</p>
+        </div>
+        <div class="review-section__main">
+                <div class="quote">
+                    <div class="quote-icon">
+                        <i class="fas fa-quote-right"></i>
+                    </div>
+                    <blockquote class="quote__content">
+                        "Excellent Book! Add your book review here consectetur adipiscing elit. Aliquam euismod nunc porta urna facilisis
+                        tempor."
+                    </blockquote>
+                    <div class="quote__pic">
+                        <img class="quote__pic--1" src="./images/profiles/profile-1.png" alt="profile-1">
+                    </div>
+                    <div class="quote__details">
+                        <p class="quote__text">James Doe</p>
+                        <p class="quote__text">Co-Founder, Startup Week</p>
+                    </div>
+                </div>
+                <div class="quote">
+                    <div class="quote-icon">
+                        <i class="fas fa-quote-right"></i>
+                    </div>
+                    <blockquote class="quote__content">
+                        "Great Book! Add your book review here consectetur adipiscing elit. Aliquam euismod nunc porta urna facilisis tempor.
+                        Praesent mauris neque."
+                    </blockquote>
+                    <div class="quote__pic">
+                        <img class="quote__pic--2" src="./images/profiles/profile-2.png" alt="profile-2">
+                    </div>
+                    <div class="quote__details">
+                        <p class="quote__text">Jean Doe</p>
+                        <p class="quote__text">Co-Founder, Company Tristique</p>
+                    </div>
+                </div>
+                <div class="quote">
+                    <div class="quote-icon">
+                        <i class="fas fa-quote-right"></i>
+                    </div>
+                    <blockquote class="quote__content">
+                        "Excellent Book! Add your book review here consectetur adipiscing elit. Pellentesque ac leo turpis. Phasellus imperdiet
+                        id ligula tempor imperdiet."
+                    </blockquote>
+                    <div class="quote__pic">
+                        <img class="quote__pic--3" src="./images/profiles/profile-3.png" alt="profile-3">
+                    </div>
+                    <div class="quote__details">
+                        <p class="quote__text">Tom Doe</p>
+                        <p class="quote__text">Product Designer, Company Lorem</p>
+                    </div>
+                </div>
+                <div class="quote">
+                    <div class="quote-icon">
+                        <i class="fas fa-quote-right"></i>
+                    </div>
+                    <blockquote class="quote__content">
+                        "Another book review here consectetur adipiscing elit. Pellentesque ac leo turpis. Phasellus imperdiet id ligula tempor
+                        imperdiet."
+                    </blockquote>
+                    <div class="quote__pic">
+                        <img class="quote__pic--4" src="./images/profiles/profile-4.png" alt="profile-4">
+                    </div>
+                    <div class="quote__details">
+                        <p class="quote__text">Alice Doe</p>
+                        <p class="quote__text">App Developer, Company Ipsum</p>
+                    </div>
+                </div>
+                <div class="quote">
+                    <div class="quote-icon">
+                        <i class="fas fa-quote-right"></i>
+                    </div>
+                    <blockquote class="quote__content">
+                        "Another book review here consectetur adipiscing elit. Pellentesque ac leo turpis. Phasellus imperdiet id ligula tempor
+                        imperdiet."
+                    </blockquote>
+                    <div class="quote__pic">
+                        <img class="quote__pic--5" src="./images/profiles/profile-5.png" alt="profile-5">
+                    </div>
+                    <div class="quote__details">
+                        <p class="quote__text">Sam Doe</p>
+                        <p class="quote__text">Co-Founder, Company Integer</p>
+                    </div>
+                </div>
+        </div>
+        <button class="btn review-section__btn">Get Your Copy Today</button>
+    </div>
+    <div class="author-section">
+        <div class="author-section__pic">
+            <img class="author-section__pic--1" src="./images/profiles/author-profile.png" alt="author">
+        </div>
+        <div class="author-section__content">
+            <h2 class="heading-2-w mb-3">
+                About The Author
+            </h2>
+            <p class="author-section__text author-section__text--1 mb-2">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Natus quasi tenetur sit atque quisquam voluptate odit quas nihil assumenda rerum id, perferendis voluptates nam repellendus reprehenderit sunt. Neque voluptates delectus provident tempore mollitia ab sequi.
+            </p>
+            <p class="author-section__text author-section__text--2">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maiores reiciendis illo sunt, libero a, assumenda exercitationem laudantium animi voluptas illum, dolores eligendi commodi harum facilis in impedit cupiditate quas. Quibusdam, nihil eligendi. Autem ipsa quidem facilis non rerum.
+            </p>
+        </div>
+        <div class="author-section__media">
+            <h3 class="media-heading">
+                Follow Author
+            </h3>
+            <div class="author-section__icons">
+                <div class="author-section__icon">
+                    <i class="fab fa-twitter"></i>
+                </div>
+                <div class="author-section__icon">
+                    <i class="fab fa-github-alt"></i>
+                </div>
+                <div class="author-section__icon">
+                    <i class="fab fa-medium-m"></i>
+                </div>
+                <div class="author-section__icon">
+                    <i class="fas fa-globe-europe"></i>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        <p class="footer__text">Designed with <i class="fas fa-heart" style="color: #fb866a;"></i> by Zilen Modi</small>
+    </div>
+
+    <script src="./index.js" type="text/javascript"></script>
+</body>
+</html>
